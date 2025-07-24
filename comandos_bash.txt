@@ -1,19 +1,26 @@
 
-
-
-
-
-
 COMANDOS GIT 
-	Cd : Muda a pasta
-	 Ls : O que tem na pasta
-	Pwd : O caminho absoluto (mostra aonde vc está)
-	Ls -a : acessa "arquivos ocultos", Ex: '.'(ponto), '..'(ponto ponto) 
-	Comando .. (ponto ponto) é a pasta "mae",pasta acima do desktop	Comando . (ponto) é a própia pasta
-	Mkdir (criar uma pasta) Ex: mkdir (nome da pasta)
+Cd : Muda a pasta
+ Ls : O que tem na pasta
+Pwd : O caminho absoluto (mostra aonde vc está)
+Ls -a : acessa "arquivos ocultos", Ex: '.'(ponto), '..'(ponto ponto) 
+Comando .. (ponto ponto) é a pasta "mae",pasta acima do desktop	Comando . (ponto) é a própia pasta
+Mkdir (criar uma pasta) Ex: mkdir (nome da pasta)
 main (root-commit) b30ec76] -->Isso é o "id" do commit "Aqui o comentário  q vc fez no commit)
-	Nano (nome do arquivo que a gt quer criar.txt)   : acessa o editor de texo (tudo q vc escrever no nano vai ser criado um arquivo novo na pasta  )  
-	Ctrl + o    : dentro do nano salvo o arquivo 
-	Ctrl + x   : sai do ambiente nano
-	 git log        : mostra o historico de todos os commits com informaçoes
+Nano (nome do arquivo que a gt quer criar.txt)   : acessa o editor de texo (tudo q vc escrever no nano vai ser criado um arquivo novo na pasta  )  
+Ctrl + o    : dentro do nano salvo o arquivo 
+Ctrl + x   : sai do ambiente nano
+ git log        : mostra o historico de todos os commits com informaçoes
 
+
+#####FLUXO DE TRABALHO GIT
+1-Cria a pasta do projeto
+2-Iniciar o git dentro do diretório criado (git init .)
+3-Edia ou cria arquivos
+4-Git status
+5-Git add (nome do arquivo
+6-git status
+7-Git commit =m "Mensagem do commit"
+8-Git status
+9-Volte para o passo 3.
+dasdsadasdasasdasd
