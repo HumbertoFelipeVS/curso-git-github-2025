@@ -1,3 +1,9 @@
+
+
+
+
+
+
 COMANDOS GIT 
 ⦁	Cd : Muda a pasta
 ⦁	 Ls : O que tem na pasta
@@ -7,4 +13,6 @@ COMANDOS GIT
 ⦁	Comando . (ponto) é a própia pasta
 ⦁	Mkdir (criar uma pasta) Ex: mkdir (nome da pasta)
 	
+
+teste
  
