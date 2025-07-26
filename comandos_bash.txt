@@ -1,17 +1,29 @@
-
 COMANDOS GIT 
 Cd : Muda a pasta
- Ls : O que tem na pasta
+Ls : O que tem na pasta
 Pwd : O caminho absoluto (mostra aonde vc está)
 Ls -a : acessa "arquivos ocultos", Ex: '.'(ponto), '..'(ponto ponto) 
-Comando .. (ponto ponto) é a pasta "mae",pasta acima do desktop	Comando . (ponto) é a própia pasta
-Mkdir (criar uma pasta) Ex: mkdir (nome da pasta)
-main (root-commit) b30ec76] -->Isso é o "id" do commit "Aqui o comentário  q vc fez no commit)
+.. (ponto ponto) é a pasta "mae",pasta acima do desktop
+. (ponto) é a própia pasta
+Git init .    : vai fazer a pasta virar "especial", que da o direito de versionar arquivos
+Rm -rf .git/     : comando para a pastar não ser mais "especial"
+Git status       : mostra o status da pasta(main)
+Git add (nome do arquivo)        : vai adicionar a pasta pro commit
+Git commit -m "comentário que quiser"      : commita o arquivo com um comentário
+Git config --global user.email "seu email
+Gitr config --global user.nome "seu nome"
+[main (root-commit) b30ec76] -->Isso é o "id" do commit "Aqui o comentário  q vc fez no commit)
 Nano (nome do arquivo que a gt quer criar.txt)   : acessa o editor de texo (tudo q vc escrever no nano vai ser criado um arquivo novo na pasta  )  
 Ctrl + o    : dentro do nano salvo o arquivo 
 Ctrl + x   : sai do ambiente nano
- git log        : mostra o historico de todos os commits com informaçoes
-
+Git add .      : todos os arquivos da pasta vao ser salvos para o commit
+Ctrl + L       :  Limpa o terminal
+Git diff (nome do arquivo)  Mostra o que não tem não pasta comittada  (usado para ver os arquivos novos para a pasta)
+Comando "Q" Serve para "desbugar" quando vc da um git diff
+Git reset (nome do arquivo) Tira o arquivo do commit
+Git checkout -b "nome da branch"  Para acessar a branch "secundaria"
+Git branch   : Mostra todas as branchs
+Git merge secundaria (voce tem q ta na branch main ai vai "mesclar""merge" os arquivos da brach secundaria para o main
 
 #####FLUXO DE TRABALHO GIT
 1-Cria a pasta do projeto
@@ -20,7 +32,6 @@ Ctrl + x   : sai do ambiente nano
 4-Git status
 5-Git add (nome do arquivo
 6-git status
-7-Git commit =m "Mensagem do commit"
+7-Git commit -m "Mensagem do commit"
 8-Git status
 9-Volte para o passo 3.
-dasdsadasdasasdasd
